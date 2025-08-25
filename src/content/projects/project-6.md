@@ -26,17 +26,17 @@ skills:
     - Firebase Authentication
     - Figma
 images:
-    - /qrtickets/1.jpg
-    - /qrtickets/2.jpg
-    - /qrtickets/3.jpg
-    - /qrtickets/4.jpg
-    - /qrtickets/5.jpg
-    - /qrtickets/6.png
-    - /qrtickets/7.jpg
-    - /qrtickets/8.png
+    - /portafolio/qrtickets/1.jpg
+    - /portafolio/qrtickets/2.jpg
+    - /portafolio/qrtickets/3.jpg
+    - /portafolio/qrtickets/4.jpg
+    - /portafolio/qrtickets/5.jpg
+    - /portafolio/qrtickets/6.png
+    - /portafolio/qrtickets/7.jpg
+    - /portafolio/qrtickets/8.png
 mockups:
-    - /mockups/qrtickets/qrtickets-1.png
-    - /mockups/qrtickets/qrtickets-2.png
+    - /portafolio/mockups/qrtickets/qrtickets-1.png
+    - /portafolio/mockups/qrtickets/qrtickets-2.png
 librariesFrontend:
     - {
         name: "@react-native-async-storage/async-storage",
