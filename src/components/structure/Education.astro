@@ -1,0 +1,42 @@
+---
+import { BookSvg, LocationSvg } from '../../svgs';
+import { GraduationSvg, CalendarSvg } from '../../svgs'
+import HeaderSection from "../headers/HeaderSection";
+---
+
+<section class="w-full py-12 px-4 bg-gray-900/50" id="education">
+    <div class="flex flex-col w-full max-w-7xl mx-auto gap-6">
+        <HeaderSection label="Educación" title="Formación Académica" subtitle='Mi formación universitaria que complementa mi experiencia práctica'>
+            <GraduationSvg />
+        </HeaderSection>
+        <article class="w-full max-w-4xl mx-auto flex flex-col justify-center items-center gap-6 p-8 bg-gray-900 border rounded-lg border-gray-700">
+            <span class="bg-gradient p-4 max-w-max rounded-full">
+                <GraduationSvg size={40} />
+            </span>
+            <span class="inline-flex items-center gap-2 bg-gradient px-4 py-2 max-w-max rounded-full font-semibold">
+                <CalendarSvg size={16} /> 2018 - 2025
+            </span>
+            <div class="flex flex-col gap-4 text-center items-center">
+                <h3 class="flex gap-2 items-center">Ingeniería en Sistemas de Información</h3>
+                <span class="flex flex-col md:flex-row items-center gap-2 text-red-400 max-w-max font-semibold text-xl"><LocationSvg /> Universidad Tecnológica Nacional (UTN)</span>
+            </div>
+            <p class="text-center text-gray-300">
+                Complete la carrera enfocándome en el desarrollo de software, arquitectura de sistemas y gestión de proyectos tecnológicos. Durante mis estudios, complementé la teoría con práctica constante en proyectos reales.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+                <div class="text-center w-full space-2 border border-red-950/40 bg-gray-800 rounded-lg p-4">
+                    <span class="text-3xl font-bold text-red-400">7 años</span>
+                    <p class="text-gray-400">Duración de la carrera</p>
+                </div>
+                <div class="text-center w-full space-2 border border-red-950/40 bg-gray-800 rounded-lg p-4">
+                    <span class="text-3xl font-bold text-red-400">2025</span>
+                    <p class="text-gray-400">Año de graduación</p>
+                </div>
+                <div class="text-center w-full space-2 border border-red-950/40 bg-gray-800 rounded-lg p-4">
+                    <span class="text-3xl font-bold text-red-400">UTN</span>
+                    <p class="text-gray-400">Facultad Regional La Plata</p>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import { AboutMe, Contact, Education, Header, Projects, Stats, TechnicalSkills, ProjectDescription } from "../components";
+
+const projects = await getCollection('projects');
+---
+
+<Layout>
+	<div slot="body" class="w-full">
+		<Header />
+		<Stats />
+		<AboutMe />
+		<TechnicalSkills />
+		<Projects client:load projects={projects} />
+		<Education />
+		<Contact client:load />
+	</div>
+</Layout>

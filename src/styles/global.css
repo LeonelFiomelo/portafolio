@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+.container-align {
+    @apply flex w-full max-w-7xl mx-auto
+}
+
+.container-box {
+    @apply p-4 bg-gray-900 border rounded-lg border-gray-700
+}
+
+h2 {
+    @apply text-5xl font-bold
+}
+
+.subtitle-h2 {
+    @apply text-2xl font-normal text-neutral-400
+}
+
+h3 {
+    @apply text-3xl font-semibold
+}
+
+h4 {
+    @apply text-xl font-semibold
+}
+
+.subtitle-h4 {
+    @apply text-lg font-normal text-neutral-400
+}
+
+.bg-gradient {
+    @apply bg-gradient-to-r from-red-400 to-rose-500
+}
+
+.text-gradient {
+    @apply bg-gradient-to-r from-red-400 via-pink-400 to-rose-400 bg-clip-text text-transparent
+}

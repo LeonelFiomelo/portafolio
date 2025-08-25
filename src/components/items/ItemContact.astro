@@ -1,0 +1,32 @@
+---
+
+type Color = 'sky' | 'purple' | 'emerald';
+
+interface Props {
+    title: string;
+    subtitle: string;
+    color: Color;
+}
+
+const {title, subtitle, color} = Astro.props;
+
+const bg: Record<Color, string> = {
+    sky: 'bg-sky-400/20',
+    purple: 'bg-purple-400/20',
+    emerald: 'bg-emerald-400/20'
+};
+
+const text: Record<Color, string> = {
+    sky: 'text-sky-400',
+    purple: 'text-purple-400',
+    emerald: 'text-emerald-400'
+};
+---
+
+<li class="flex flex-col items-center gap-4 container-box">
+    <slot name="icon" class={`text-${text[color]}`} />
+    <h4 class="flex flex-col gap-1 text-center">
+        {title}
+        <span class={`text-lg text-gray-400`}>{subtitle}</span>
+    </h4>
+</li>

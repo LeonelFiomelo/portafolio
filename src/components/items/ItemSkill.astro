@@ -1,0 +1,33 @@
+---
+import { StarSvg } from '../../svgs';
+
+interface Props {
+    skill: string;
+    level: 1 | 2 | 3;
+}
+
+const {skill, level} = Astro.props;
+
+const levels: Record<number, string> = {
+    1: 'Básico',
+    2: 'Intermedio',
+    3: 'Avanzado'
+}
+
+const items = Array.from({length: level}, (_, i) => i + 1);
+---
+
+<li class="flex justify-between pb-4">
+    <div class="flex items-center gap-2">
+        <slot name="icon" />
+        {skill}
+    </div>
+    <span class="flex items-center gap-2">
+        <div class="flex gap-1">
+            {
+                items.map(item => <StarSvg size={10} className='text-amber-500' />)
+            }
+        </div>
+        {levels[level]}
+    </span>
+</li>

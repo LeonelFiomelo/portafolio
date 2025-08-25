@@ -1,0 +1,23 @@
+---
+import { CalendarSvg, CheckSvg, FrontendSvg, ThunderSvg } from "../../svgs";
+import ItemStat from "../items/ItemStat.astro";
+---
+
+<section class="bg-gray-900/50 w-full py-12 px-4">
+    <div class="container-align">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mx-auto w-full">
+            <ItemStat stat="10+" text="Proyectos Completados">
+                <CheckSvg slot="icon" size={32} />
+            </ItemStat>
+            <ItemStat stat="12+" text="Tecnologías Dominadas">
+                <FrontendSvg slot="icon" size={32} />
+            </ItemStat>
+            <ItemStat stat="6+" text="Años Estudiando">
+                <CalendarSvg slot="icon" size={32} />
+            </ItemStat>
+            <ItemStat stat="50K+" text="Líneas de Códigos">
+                <ThunderSvg slot="icon" size={32} />
+            </ItemStat>
+        </div>
+    </div>
+</section>

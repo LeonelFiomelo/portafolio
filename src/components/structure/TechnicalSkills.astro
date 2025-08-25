@@ -1,0 +1,127 @@
+---
+import { HeaderSection, ItemSkill } from "../";
+import { BackendSvg, MonitorSvg, ReactJsSvg, ReactNativeSvg, NextJsSvg, ThunderSvg, WorldSvg, AstroSvg, TypescriptSvg, TailwindSvg, GitSvg, GitHubSvg, DockerSvg, NginxSvg, SqlServerSvg, HtmlSvg, JavascriptSvg, CssSvg, LinuxSvg, FirestoreSvg, FirebaseSvg, ExpoSvg, FigmaSvg, MarkdownSvg } from "../../svgs";
+
+
+---
+
+<section class="w-full py-12 px-4 bg-gray-900/50" id="skills">
+    <div class="flex flex-col max-w-7xl mx-auto gap-6">
+        <HeaderSection label="Stack Tecnológico" title="Habilidades Técnicas">
+            <ThunderSvg />
+        </HeaderSection>
+        <article class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
+            <div class="flex flex-col gap-2 p-4 bg-gray-900 border rounded-lg border-gray-700">
+                <div class="flex flex-col gap-1">
+                    <h3 class="flex items-center gap-2">
+                        <span class="text-red-400"><MonitorSvg size={40}/></span>
+                        Frontend
+                    </h3>
+                    <p class="text-gray-400">Mi área de especialización</p>
+                </div>
+                <ul class="flex flex-col gap-6 w-full mt-8 divide-y divide-solid divide-neutral-600/40">
+                    <ItemSkill skill="Html" level={3}>
+                        <HtmlSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Javascript" level={3}>
+                        <JavascriptSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Css" level={3}>
+                        <CssSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="React Js" level={3}>
+                        <ReactJsSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Next.js" level={3}>
+                        <NextJsSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Tailwind CSS" level={3}>
+                        <TailwindSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="TypeScript" level={3}>
+                        <TypescriptSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Astro" level={2}>
+                        <AstroSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="React Native" level={2}>
+                        <ReactNativeSvg slot="icon" />
+                    </ItemSkill>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-2 p-4 bg-gray-900 border rounded-lg border-gray-700">
+                <div class="flex flex-col gap-1">
+                    <h3 class="flex items-center gap-2">
+                        <span class="text-purple-400"><BackendSvg size={40}/></span>
+                        Backend
+                    </h3>
+                    <p class="text-gray-400">APIs y bases de datos</p>
+                </div>
+                <ul class="flex flex-col gap-6 w-full mt-8 divide-y divide-solid divide-neutral-600/40">
+                    <ItemSkill skill="C#" level={2}>
+                        <img src="/cSharp.png" class="w-[20px] h-[20px]" slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill=".NET" level={2}>
+                        <img src="/net.png" class="w-[20px] h-[20px]" slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="ASP.NET" level={2}>
+                        <img src="/ef.png" class="w-[20px] h-[20px]" slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Entity Framework" level={2}>
+                        <img src="/ef.png" class="w-[20px] h-[20px]" slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="SQL Server" level={2}>
+                        <SqlServerSvg slot="icon" className="text-gray-300" />
+                    </ItemSkill>
+                    <ItemSkill skill="Firestore" level={2}>
+                        <FirestoreSvg slot="icon" />
+                    </ItemSkill>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-2 p-4 bg-gray-900 border rounded-lg border-gray-700">
+                <div class="flex flex-col gap-1">
+                    <h3 class="flex items-center gap-2">
+                        <span class="text-rose-400"><WorldSvg size={40}/></span>
+                        Herramientas
+                    </h3>
+                    <p class="text-gray-400">Desarrollo y deployment</p>
+                </div>
+                <ul class="flex flex-col gap-6 w-full mt-8 divide-y divide-solid divide-neutral-600/40">
+                    <ItemSkill skill="Git" level={2}>
+                        <GitSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="GitHub" level={2}>
+                        <GitHubSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Figma" level={2}>
+                        <FigmaSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Expo Go" level={2}>
+                        <ExpoSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Firebase" level={2}>
+                        <FirebaseSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="DbDiagram" level={2}>
+                        <div class="relative flex items-center justify-center w-[20px] h-[20px]" slot="icon" >
+                            <img src="/dbDiagram.png" class="w-fukk h-full z-10"/>
+                            <div class="absolute w-[16px] h-[16px] bg-white"></div>
+                        </div>
+                    </ItemSkill>
+                    <ItemSkill skill="Linux" level={2}>
+                        <LinuxSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Docker" level={1}>
+                        <DockerSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="NGINX" level={1}>
+                        <NginxSvg slot="icon" />
+                    </ItemSkill>
+                    <ItemSkill skill="Markdown" level={1}>
+                        <MarkdownSvg slot="icon" />
+                    </ItemSkill>
+                </ul>
+            </div>
+        </article>
+    </div>
+</section>
