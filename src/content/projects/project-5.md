@@ -14,13 +14,13 @@ skills:
     - TypeScript
     - Tailwind Css
 images:
-    - /portafolio/neuropsicologia/1.png
-    - /portafolio/neuropsicologia/2.png
-    - /portafolio/neuropsicologia/3.png
-    - /portafolio/neuropsicologia/4.png
-    - /portafolio/neuropsicologia/5.png
-    - /portafolio/neuropsicologia/6.png
+    - /neuropsicologia/1.png
+    - /neuropsicologia/2.png
+    - /neuropsicologia/3.png
+    - /neuropsicologia/4.png
+    - /neuropsicologia/5.png
+    - /neuropsicologia/6.png
 mockups:
-    - /portafolio/mockups/neuropsicologia/neuropsicologia-1.png
-    - /portafolio/mockups/neuropsicologia/neuropsicologia-2.png
+    - /mockups/neuropsicologia/neuropsicologia-1.png
+    - /mockups/neuropsicologia/neuropsicologia-2.png
 ---

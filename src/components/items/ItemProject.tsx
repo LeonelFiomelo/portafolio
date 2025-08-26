@@ -47,7 +47,7 @@ export default function ItemProject({id, type, github, title, description, skill
     return (
         <div
             onClick={() => onClick(id)} 
-            className="flex flex-col md:flex-row rounded-xl border border-neutral-600/20 bg-neutral-800/40 md:h-[430px] w-full max-w-6xl group hover:border-red-400/20 hover:cursor-pointer transition-all"
+            className="flex flex-col md:flex-row rounded-xl border border-neutral-600/20 bg-neutral-800/40 md:min-h-[430px] w-full max-w-6xl group hover:border-red-400/20 hover:cursor-pointer transition-all"
         >
             <div className="relative w-full md:w-1/2 rounded-l-lg bg-gray-950/10 pt-14 pb-4 md:pb-8 md:py-8">
                 <div className="absolute flex flex-wrap items-center gap-2 top-4 left-4 text-sm font-semibold">
@@ -63,7 +63,7 @@ export default function ItemProject({id, type, github, title, description, skill
                 </div>
                 <img src={`${images[0]}`} className="w-auto h-full mx-auto" />
             </div>
-            <div className="flex flex-col gap-6 p-6 w-full md:w-1/2">
+            <div className="flex flex-col gap-6 p-4 md:p-6 w-full md:w-1/2">
                 <div className="space-y-2">
                     <h3 className="text-2xl group-hover:text-red-400/80 transition-all">{title}</h3>
                     <p className="text-neutral-400">{description}</p>
@@ -77,7 +77,7 @@ export default function ItemProject({id, type, github, title, description, skill
                     </ul>
                 </div>
                 <div className="flex items-end h-full">
-                    <div className="flex flex-wrap gap-4">
+                    <div className="flex flex-wrap md:flex-nowrap w-full md:w-auto gap-4">
                         {
                             (type === 'Público' && github) &&
                             <ButtonLink title='Ver Código' href={github} onClick={(e) => e?.stopPropagation()}>

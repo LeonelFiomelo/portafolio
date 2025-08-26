@@ -32,7 +32,7 @@ export default function Contact() {
                         <li className="flex flex-col items-center gap-3 container-box w-64 mx-auto">
                             <EmailSvg size={32} className="text-red-400" />
                             <h4 className="flex flex-col gap-1 text-center">Email</h4>
-                            <img src="/portafolio/email.png" />
+                            <img src="/email.png" />
                             <button 
                                 title="Copiar Email"
                                 onClick={copyMail}
@@ -84,7 +84,7 @@ export default function Contact() {
                             <h4 className="flex flex-col gap-1 text-center">Curriculum</h4>
                             <p className="text-gray-400">Descargar PDF</p>
                             <a 
-                                href="/portafolio/cv.pdf"
+                                href="/cv.pdf"
                                 download="leonel_fiomelo_cv.pdf"
                                 title="Descargar CV"
                                 className="flex items-center gap-2 hover:cursor-pointer hover:bg-red-400/5 text-sm transition-colors py-2 px-4 border border-red-400 text-red-400 rounded-md"

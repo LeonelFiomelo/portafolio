@@ -15,10 +15,10 @@ skills:
     - Tailwind Css
     - Figma
 images:
-    - /portafolio/nanni/1.png
-    - /portafolio/nanni/2.png
-    - /portafolio/nanni/3.png
+    - /nanni/1.png
+    - /nanni/2.png
+    - /nanni/3.png
 mockups:
-    - /portafolio/mockups/nanni/nanni-1.png
-    - /portafolio/mockups/nanni/nanni-2.png
+    - /mockups/nanni/nanni-1.png
+    - /mockups/nanni/nanni-2.png
 ---

@@ -29,16 +29,16 @@ skills:
     - DbDiagram
     - Figma
 images:
-    - /portafolio/engrupo/1.png
-    - /portafolio/engrupo/2.png
-    - /portafolio/engrupo/3.png
-    - /portafolio/engrupo/4.png
-    - /portafolio/engrupo/5.png
-    - /portafolio/engrupo/6.png
-    - /portafolio/engrupo/7.png
+    - /engrupo/1.png
+    - /engrupo/2.png
+    - /engrupo/3.png
+    - /engrupo/4.png
+    - /engrupo/5.png
+    - /engrupo/6.png
+    - /engrupo/7.png
 mockups:
-    - /portafolio/mockups/engrupo/engrupo-1.png
-    - /portafolio/mockups/engrupo/engrupo-2.png
+    - /mockups/engrupo/engrupo-1.png
+    - /mockups/engrupo/engrupo-2.png
 librariesFrontend:
     - {
         name: microsoft/signalr,

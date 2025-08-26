@@ -26,13 +26,13 @@ skills:
     - SQL Server
     - DbDiagram
 images:
-    - /portafolio/cdi/1.png
-    - /portafolio/cdi/3.png
-    - /portafolio/cdi/2.png
-    - /portafolio/cdi/4.png
+    - /cdi/1.png
+    - /cdi/3.png
+    - /cdi/2.png
+    - /cdi/4.png
 mockups:
-    - /portafolio/mockups/cdi/cdi-1.png
-    - /portafolio/mockups/cdi/cdi-2.png
+    - /mockups/cdi/cdi-1.png
+    - /mockups/cdi/cdi-2.png
 librariesFrontend:
     - {
         name: jose,

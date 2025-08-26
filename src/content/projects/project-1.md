@@ -35,19 +35,19 @@ skills:
     - Linux
     - Nginx
 images:
-    - /portafolio/ticketsflow/1.png
-    - /portafolio/ticketsflow/2.png
-    - /portafolio/ticketsflow/3.png
-    - /portafolio/ticketsflow/4.png
-    - /portafolio/ticketsflow/5.png
-    - /portafolio/ticketsflow/6.png
-    - /portafolio/ticketsflow/7.png
-    - /portafolio/ticketsflow/8.png
-    - /portafolio/ticketsflow/9.png
-    - /portafolio/ticketsflow/10.png
+    - /ticketsflow/1.png
+    - /ticketsflow/2.png
+    - /ticketsflow/3.png
+    - /ticketsflow/4.png
+    - /ticketsflow/5.png
+    - /ticketsflow/6.png
+    - /ticketsflow/7.png
+    - /ticketsflow/8.png
+    - /ticketsflow/9.png
+    - /ticketsflow/10.png
 mockups:
-    - /portafolio/mockups/ticketsflow/ticketsflow-1.png
-    - /portafolio/mockups/ticketsflow/ticketsflow-2.png
+    - /mockups/ticketsflow/ticketsflow-1.png
+    - /mockups/ticketsflow/ticketsflow-2.png
 librariesFrontend:
     - {
         name: chart.js,
