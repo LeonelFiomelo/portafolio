@@ -6,7 +6,9 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://leonelfiomelo.dev/',
+  //site: 'https://leonelfiomelo.dev/',
+  site: 'https://leonelfiomelo.github.io',
+  base: '/portafolio',
 
   integrations: [react(
     {

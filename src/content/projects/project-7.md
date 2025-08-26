@@ -15,14 +15,14 @@ skills:
     - Firestore
     - Firebase Authentication
 images:
-    - /organizatea/1.jpeg
-    - /organizatea/2.jpeg
-    - /organizatea/3.jpeg
-    - /organizatea/4.jpeg
-    - /organizatea/5.jpeg
-    - /organizatea/6.jpeg
-    - /organizatea/7.jpeg
+    - /portafolio/organizatea/1.jpeg
+    - /portafolio/organizatea/2.jpeg
+    - /portafolio/organizatea/3.jpeg
+    - /portafolio/organizatea/4.jpeg
+    - /portafolio/organizatea/5.jpeg
+    - /portafolio/organizatea/6.jpeg
+    - /portafolio/organizatea/7.jpeg
 mockups:
-    - /mockups/organizatea/organizatea-1.png
-    - /mockups/organizatea/organizatea-2.png
+    - /portafolio/mockups/organizatea/organizatea-1.png
+    - /portafolio/mockups/organizatea/organizatea-2.png
 ---

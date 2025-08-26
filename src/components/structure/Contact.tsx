@@ -32,7 +32,7 @@ export default function Contact() {
                         <li className="flex flex-col items-center gap-3 container-box w-64 mx-auto">
                             <EmailSvg size={32} className="text-red-400" />
                             <h4 className="flex flex-col gap-1 text-center">Email</h4>
-                            <img src="/email.png" />
+                            <img src="/portafolio/email.png" />
                             <button 
                                 title="Copiar Email"
                                 onClick={copyMail}
