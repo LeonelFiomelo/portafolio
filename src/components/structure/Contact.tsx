@@ -84,7 +84,7 @@ export default function Contact() {
                             <h4 className="flex flex-col gap-1 text-center">Curriculum</h4>
                             <p className="text-gray-400">Descargar PDF</p>
                             <a 
-                                href="/cv.pdf"
+                                href="/portafolio/cv.pdf"
                                 download="leonel_fiomelo_cv.pdf"
                                 title="Descargar CV"
                                 className="flex items-center gap-2 hover:cursor-pointer hover:bg-red-400/5 text-sm transition-colors py-2 px-4 border border-red-400 text-red-400 rounded-md"
