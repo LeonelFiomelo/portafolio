@@ -4,11 +4,10 @@ type Colors = 'red' | 'pink' | 'rose' | 'amber'
 interface Props {
     title: string;
     subtitle: string;
-    level: string;
     color: Colors;
 }
 
-const {title, subtitle, level, color} = Astro.props;
+const {title, subtitle, color} = Astro.props;
 
 const style: Record<Colors, string> = {
     red: 'bg-red-400/20 text-red-400',
@@ -22,5 +21,4 @@ const style: Record<Colors, string> = {
     <slot name="icon" />
     <b>{title}</b>
     <span class="text-gray-400 text-center text-sm md:text-base">{subtitle}</span>
-    <span class={`px-3 py-0.5 text-xs font-semibold rounded-full ${style[color]}`}>{level}</span>
 </div>

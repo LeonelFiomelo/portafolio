@@ -1,9 +1,19 @@
 ---
-import HeartSvg from "../../svgs/HeartSvg.astro";
 import ItemAboutMe from "../items/ItemAboutMe.astro";
 import HeaderSection from "../headers/HeaderSection";
-import { MonitorSvg, BackendSvg, WorldSvg, BookSvg, StarSvg, RocketSvg, UsersSvg, ThunderSvg, FireSvg, UserSvg } from "../../svgs";
 import ItemCharacteristic from "../items/ItemCharacteristic.astro";
+import {
+    MonitorSvg,
+    BackendSvg,
+    WorldSvg,
+    BookSvg,
+    StarSvg,
+    RocketSvg,
+    UsersSvg,
+    ThunderSvg,
+    FireSvg,
+    UserSvg,
+} from "../../svgs";
 ---
 
 <section class="w-full py-12 px-4" id="about">
@@ -13,11 +23,25 @@ import ItemCharacteristic from "../items/ItemCharacteristic.astro";
         </HeaderSection>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
             <article class="space-y-4 my-auto text-lg text-gray-200">
-                <p>Soy un <span class="text-red-400">Ingeniero en Sistemas de Información</span> apasionado por el desarrollo de software. Mi especialidad está en el <span class="text-pink-400">frontend</span>, donde disfruto creando interfaces intuitivas y experiencias memorables.</p>
-                <p>Tengo experiencia sólida en tecnologías <span class="text-red-400">backend</span>, lo que me permite desarrollar aplicaciones completas de extremo a extremo.</p>
-                <p>Siempre estoy aprendiendo nuevas tecnologías y mejores prácticas, buscando escribir código limpio, mantenible y eficiente.</p>
+                <p>
+                    Ingeniero de Sistemas enfocado en la creación de productos
+                    web
+                    <span class="text-red-400"
+                        >escalables y de alto rendimiento.</span
+                    >. Especializado en el ecosistema React/Next.js, con un
+                    fuerte background en .NET, lo que me permite tener una
+                    <span class="text-pink-400">visión arquitectónica</span>
+                    integral (Full Stack) de las aplicaciones.
+                </p>
+                <p>
+                    Me motiva resolver problemas complejos de negocio mediante
+                    código limpio, arquitecturas mantenibles y una excelente
+                    experiencia de usuario.
+                </p>
                 <div class="flex flex-col w-full gap-4 mt-8">
-                    <h4 class="flex items-center gap-2"><StarSvg className="text-red-400" /> Características Personales</h4>
+                    <h4 class="flex items-center gap-2">
+                        <StarSvg className="text-red-400" /> Características Personales
+                    </h4>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                         <ItemCharacteristic text="Aprendizaje Continuo">
                             <ThunderSvg slot="icon" className="text-red-400" />
@@ -35,16 +59,40 @@ import ItemCharacteristic from "../items/ItemCharacteristic.astro";
                 </div>
             </article>
             <article class="grid grid-cols-2 gap-4">
-                <ItemAboutMe title="Frontend" subtitle="React.js especialista" level="Experto" color="red">
-                    <MonitorSvg slot="icon" size={40} className="text-red-400" />
+                <ItemAboutMe
+                    title="Frontend"
+                    subtitle="Arquitectura & UI/UX"
+                    color="red"
+                >
+                    <MonitorSvg
+                        slot="icon"
+                        size={40}
+                        className="text-red-400"
+                    />
                 </ItemAboutMe>
-                <ItemAboutMe title="Backend" subtitle=".NET & SQL Server" level="Avanzado" color="pink">
-                    <BackendSvg slot="icon" size={40} className="text-pink-400" />
+                <ItemAboutMe
+                    title="Backend"
+                    subtitle="APIs Resilientes"
+                    color="pink"
+                >
+                    <BackendSvg
+                        slot="icon"
+                        size={40}
+                        className="text-pink-400"
+                    />
                 </ItemAboutMe>
-                <ItemAboutMe title="Deployment" subtitle="VPS & Web Apps" level="Intermedio" color="rose">
+                <ItemAboutMe
+                    title="Deployment"
+                    subtitle="CI/CD & Cloud"
+                    color="rose"
+                >
                     <WorldSvg slot="icon" size={40} className="text-rose-400" />
                 </ItemAboutMe>
-                <ItemAboutMe title="Aprendizaje" subtitle="Siempre creciendo" level="Continuo" color="amber">
+                <ItemAboutMe
+                    title="Aprendizaje"
+                    subtitle="Mejora Continua"
+                    color="amber"
+                >
                     <BookSvg slot="icon" size={40} className="text-amber-500" />
                 </ItemAboutMe>
             </article>
